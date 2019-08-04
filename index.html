@@ -11,44 +11,46 @@
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 <body>
-  <nav class="white" role="navigation">
-    <div class="nav-wrapper container">
-      <a id="logo-container" href="#" class="brand-logo">Logo</a>
-      <ul class="right hide-on-med-and-down">
-        <li><a href="#home">Úvod</a></li>
-        <li><a href="#features">Vlastnosti</a></li>
-        <li><a href="#foto">Fotogalerie</a></li>
-      </ul>
+  <div class="navbar-fixed">
+    <nav class="white" role="navigation">
+      <div class="nav-wrapper container">
+        <a id="logo-container" href="#" class="brand-logo">Logo</a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="#index-banner">Úvod</a></li>
+          <li><a href="#features">Vlastnosti</a></li>
+          <li><a href="#photo">Fotogalerie</a></li>
+        </ul>
 
-      <ul id="nav-mobile" class="sidenav">
-        <li><a href="#home">Úvod</a></li>
-        <li><a href="#features">Vlastnosti</a></li>
-        <li><a href="#foto">Fotogalerie</a></li>
-      </ul>
-      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-    </div>
-  </nav>
+        <ul id="nav-mobile" class="sidenav">
+          <li><a href="#index-banner">Úvod</a></li>
+          <li><a href="#features">Vlastnosti</a></li>
+          <li><a href="#photo">Fotogalerie</a></li>
+        </ul>
+        <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      </div>
+    </nav>
+  </div>
 
   <div id="index-banner" class="parallax-container">
     <div class="section no-pad-bot">
       <div class="container">
         <br><br>
-        <h1 class="header center teal-text text-lighten-2">Notes cestovatele</h1>
+        <h1 class="header center teal-text text-lighten-2">Notes</h1>
         <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+          <h5 class="header col s12 light">Zápisník pro všechny co miluji cestování tak jako já...</h5>
         </div>
         <div class="row center">
-          <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Get Started</a>
+          <a href="#features" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Zjisti více</a>
         </div>
         <br><br>
 
       </div>
     </div>
-    <div class="parallax"><img src="background1.jpg" alt="Unsplashed background img 1"></div>
+    <div class="parallax"><img src="images/paralax/background1.jpg" alt="Unsplashed background img 1"></div>
   </div>
 
 
-  <div class="container">
+  <div id="features" class="container">
     <div class="section">
 
       <!--   Icon Section   -->
@@ -84,31 +86,31 @@
     </div>
   </div>
 
-
-  <div class="parallax-container valign-wrapper">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
-        </div>
-      </div>
-    </div>
-    <div class="parallax"><img src="background2.jpg" alt="Unsplashed background img 2"></div>
-  </div>
-
   <div class="container">
     <div class="section">
 
       <div class="row">
         <div class="col s12 center">
           <h3><i class="mdi-content-send brown-text"></i></h3>
-          <h4>Contact Us</h4>
-          <div class="carousel carousel-slider">
+          <h4></h4>
+          <p class="light">Vivamus lobortis tempor nisl, sit amet congue sapien. Mauris consectetur ante lacus, non mattis dolor tincidunt a. Integer rhoncus nunc vehicula dolor euismod finibus. Suspendisse ac tortor a lectus efficitur cursus at vel nulla. Ut congue dapibus risus vel mollis. Proin tempus risus ante, ac volutpat dolor condimentum ac. Suspendisse sit amet mattis enim, et dignissim ante. Nullam vel lectus ullamcorper, tempor orci at, dictum mauris. Ut iaculis urna ac tortor pretium, et tempus purus maximus. Maecenas consectetur magna commodo, eleifend sem eu, bibendum odio. In hac habitasse platea dictumst. Duis vitae enim et dolor viverra lacinia.
+
+            Integer in condimentum erat. Vestibulum orci felis, porttitor in semper luctus, semper id enim. Duis tincidunt mattis enim id consequat. Integer fringilla ac augue in faucibus. Etiam ut sem vel justo tincidunt ultricies vel quis tortor. Sed ac turpis magna. Praesent fermentum nulla quis nunc semper, et accumsan arcu cursus. Aliquam ac tristique arcu.
+            
+            Suspendisse magna sem, interdum non tellus ac, tincidunt condimentum nulla. Donec et metus id lacus tincidunt ultrices in quis ligula. Aenean quis dolor at nulla consectetur porttitor. Pellentesque egestas nibh vitae diam molestie, vel iaculis ex luctus. Vestibulum bibendum, augue ut varius pharetra, velit tellus tempor ipsum, id mollis turpis velit vel dolor. Nullam eget volutpat dolor, eget sagittis nibh. Vestibulum id neque sagittis, auctor arcu in, lacinia eros. Aliquam quis viverra mauris, sed ornare lectus. Pellentesque eget risus ligula. Curabitur posuere et odio ultricies consequat. Donec porttitor, massa at aliquam laoreet, eros ipsum porta dui, sit amet euismod libero elit sed dui. Integer finibus imperdiet fermentum.</p>
+          <div id="photo" class="carousel carousel-slider">
             <a class="carousel-item" href="#one!"><img src="https://www.crockerriverside.org/sites/main/files/main-images/camera_lense_0.jpeg"></a>
             <a class="carousel-item" href="#two!"><img src="https://lorempixel.com/800/400/food/2"></a>
             <a class="carousel-item" href="#three!"><img src="https://lorempixel.com/800/400/food/3"></a>
             <a class="carousel-item" href="#four!"><img src="https://lorempixel.com/800/400/food/4"></a>
           </div>
+          <p class="light">Ut in diam et diam rhoncus tincidunt. Cras ultricies tellus in lacus dapibus, non dignissim elit molestie. Mauris ac consectetur lectus, sed faucibus orci. Cras facilisis mauris ac sapien convallis efficitur. Pellentesque efficitur pharetra bibendum. Quisque sit amet imperdiet felis, nec consequat ex. Mauris egestas nisl mauris, in aliquam risus feugiat ut. Suspendisse quis nulla vel elit iaculis tincidunt. Nam in bibendum metus. Suspendisse imperdiet nulla sit amet diam feugiat, gravida ullamcorper ipsum mattis. Donec ac lacus pharetra, condimentum ex non, faucibus libero.
+
+            Sed consequat ipsum sit amet erat ornare venenatis. Quisque maximus ac leo vel cursus. In sed urna tortor. Vestibulum ac lobortis augue. Pellentesque mollis porta hendrerit. Mauris erat arcu, vestibulum ac pulvinar nec, gravida et dui. Suspendisse porttitor fringilla turpis ut sodales. Ut nec mollis dolor. Aliquam erat volutpat. In lobortis suscipit elementum. Nulla risus libero, aliquet a ante eu, mattis feugiat lacus.
+            
+            Aenean eu dolor vel sem mattis ultricies sit amet eu sapien. Aenean sodales a tortor ut facilisis. Morbi et sollicitudin felis. Phasellus vitae nisi justo. Sed ultricies ligula nec ipsum efficitur, sed dictum orci rhoncus. Duis ultricies sem a dui aliquam molestie. Nam consequat, elit vel ullamcorper posuere, orci ante elementum sapien, ut sollicitudin enim enim quis neque. Aliquam ac arcu eget est maximus posuere ut id ligula. Nulla euismod nisi hendrerit lacus dictum auctor. Vivamus ullamcorper massa ipsum, ut facilisis turpis lobortis sed.
+            
+            Maecenas accumsan massa risus, eget hendrerit sapien congue sed. In volutpat quam ac orci imperdiet semper tristique quis nulla. Pellentesque gravida euismod ex porta mattis. Vestibulum dapibus magna augue, in scelerisque erat consectetur id. Suspendisse ultricies orci at ex viverra fermentum. In dui nunc, sodales id ante sed, fermentum malesuada ex. Mauris eget felis vitae nibh hendrerit laoreet vel non ligula. Phasellus venenatis eleifend diam, nec commodo ex aliquet at. Vestibulum sit amet nisl quis sem ullamcorper pellentesque. Etiam dignissim tortor justo, sed vestibulum tortor ornare eget.</p>
         </div>
       </div>
 
@@ -120,45 +122,35 @@
     <div class="section no-pad-bot">
       <div class="container">
         <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+          <h5 class="header col s12 light"></h5>
         </div>
       </div>
     </div>
-    <div class="parallax"><img src="background3.jpg" alt="Unsplashed background img 3"></div>
+    <div class="parallax"><img src="images/paralax/background3.jpg" alt="Unsplashed background img 3"></div>
   </div>
 
   <footer class="page-footer teal">
     <div class="container">
       <div class="row">
-        <div class="col l6 s12">
-          <h5 class="white-text">Company Bio</h5>
-          <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
+        <div class="col l9 s12">
+          <h5 class="white-text">Sofie Lukeš</h5>
+          <p class="grey-text text-lighten-4">Cras egestas lorem et nisl luctus fringilla. Curabitur luctus orci rhoncus ante rhoncus posuere. Proin iaculis enim nibh, non vulputate augue luctus et. Maecenas sit amet lectus libero. Donec commodo id tortor et tristique. Nunc mollis commodo ipsum, ac mollis lorem tincidunt ut. Nullam auctor libero sed dapibus interdum. Aenean vulputate fermentum leo ac pharetra. Vestibulum porttitor neque quis sapien pulvinar, sed porta magna volutpat. Morbi dolor arcu, sagittis nec fermentum ut, euismod sed turpis.</p>
 
 
         </div>
         <div class="col l3 s12">
-          <h5 class="white-text">Settings</h5>
+          <h5 class="white-text">Social</h5>
           <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
-          </ul>
-        </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">Connect</h5>
-          <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
+            <li><a class="white-text" href="https://www.instagram.com/sofie.s.world/"><img src="images/social_icons/insta.svg" style="width:48px;height:48px;"></a></li>
+            <li><a class="white-text" href="https://www.facebook.com/sofie.lukesova/"><img src="images/social_icons/fb.svg" style="width:48px;height:48px;"></a></li>
+            <li><a class="white-text" href="mailto:sofie.lukes@gmail.com"><img src="images/social_icons/gmail.svg" style="width:48px;height:48px;"></a></li>
           </ul>
         </div>
       </div>
     </div>
     <div class="footer-copyright">
       <div class="container">
-      Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+      Made by <a class="brown-text text-lighten-3" href="https://github.com/Tommzs">Tomáš Novák</a>
       </div>
     </div>
   </footer>

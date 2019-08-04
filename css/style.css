@@ -1,10 +1,6 @@
-/* Custom Stylesheet */
-/**
- * Use this file to override Materialize files so you can update
- * the core Materialize files in the future
- *
- * Made By MaterializeCSS.com
- */
+html {
+  scroll-behavior: smooth
+}
 
 nav ul a,
 nav .brand-logo {
@@ -22,26 +18,31 @@ p {
 .parallax-container {
   min-height: 380px;
   line-height: 0;
-  height: auto;
-  color: rgba(255,255,255,.9);
+  height: 800px;
+  color: rgba(255, 255, 255, 1);
 }
-  .parallax-container .section {
-    width: 100%;
-  }
+.parallax-container .section {
+  position: relative;
+  top: 50%;
+}
+#index-banner .section {
+  top: 20%;
+}
+
 
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
-    position: absolute;
-    top: 40%;
+    position: relative;
+    top: 50%;
   }
   #index-banner .section {
-    top: 10%;
+    top: 20%;
   }
 }
 
 @media only screen and (max-width : 600px) {
   #index-banner .section {
-    top: 0;
+    top: 20%;
   }
 }
 
