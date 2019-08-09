@@ -11,7 +11,7 @@
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 <body>
-  <div class="navbar-fixed">
+  <div class="navbar">
     <nav class="white" role="navigation">
       <div class="nav-wrapper container">
         <a id="logo-container" href="#" class="brand-logo">Logo</a>
@@ -24,7 +24,7 @@
         <ul id="nav-mobile" class="sidenav">
           <li><a href="#index-banner">Úvod</a></li>
           <li><a href="#features">Vlastnosti</a></li>
-          <li><a href="#photo">Fotogalerie</a></li>
+          <li><a href="#photo">Notes</a></li>
         </ul>
         <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
       </div>
@@ -35,20 +35,19 @@
     <div class="section no-pad-bot">
       <div class="container">
         <br><br>
-        <h1 class="header center teal-text text-lighten-2">Notes</h1>
+        <h1 class="header center teal-text text-lighten-2 butler-font">Notes</h1>
         <div class="row center">
-          <h5 class="header col s12 light">Zápisník pro všechny co miluji cestování tak jako já...</h5>
+          <h5 class="header col s12 light butler-font">Zápisník pro všechny co miluji cestování tak jako já...</h5>
         </div>
         <div class="row center">
-          <a href="#features" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Zjisti více</a>
+          <a href="#features" id="download-button" class="btn-large waves-effect waves-light teal lighten-1 butler-font">Zjisti více</a>
         </div>
         <br><br>
 
       </div>
     </div>
-    <div class="parallax"><img src="images/paralax/background1.jpg" alt="Unsplashed background img 1"></div>
+    <div class="parallax"><img src="http://lorempixel.com/1680/1050/nature/8" alt="Unsplashed background img 1"></div>
   </div>
-
 
   <div id="features" class="container">
     <div class="section">
@@ -58,27 +57,26 @@
         <div class="col s12 m4">
           <div class="icon-block">
             <h2 class="center brown-text"><i class="material-icons">flash_on</i></h2>
-            <h5 class="center">Speeds up development</h5>
+            <h5 class="center butler-font">Speeds up development</h5>
 
-            <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
+            <p class="light butler-font">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
           </div>
         </div>
 
         <div class="col s12 m4">
           <div class="icon-block">
             <h2 class="center brown-text"><i class="material-icons">group</i></h2>
-            <h5 class="center">User Experience Focused</h5>
+            <h5 class="center butler-font">User Experience Focused</h5>
 
-            <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
+            <p class="light butler-font">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
           </div>
         </div>
 
         <div class="col s12 m4">
           <div class="icon-block">
             <h2 class="center brown-text"><i class="material-icons">settings</i></h2>
-            <h5 class="center">Easy to work with</h5>
-
-            <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
+            <h5 class="center butler-font">Easy to work with</h5>
+            <p class="light butler-font">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
           </div>
         </div>
       </div>
@@ -86,62 +84,44 @@
     </div>
   </div>
 
-  <div class="container">
+  <div id="photo" class="carousel-container">
     <div class="section">
+      <div class="carousel carousel-slider">
+        <a class="carousel-item" href="#one!"><img src="http://lorempixel.com/1680/1050/nature/5"></a>
+        <a class="carousel-item" href="#two!"><img src="http://lorempixel.com/1680/1050/nature/1"></a>
+        <a class="carousel-item" href="#three!"><img src="http://lorempixel.com/1680/1050/nature/4"></a>
+        <a class="carousel-item" href="#four!"><img src="http://lorempixel.com/1680/1050/nature/2"></a>
+      </div>
+    </div>
+  </div>
 
-      <div class="row">
-        <div class="col s12 center">
-          <h3><i class="mdi-content-send brown-text"></i></h3>
-          <h4></h4>
-          <p class="light">Vivamus lobortis tempor nisl, sit amet congue sapien. Mauris consectetur ante lacus, non mattis dolor tincidunt a. Integer rhoncus nunc vehicula dolor euismod finibus. Suspendisse ac tortor a lectus efficitur cursus at vel nulla. Ut congue dapibus risus vel mollis. Proin tempus risus ante, ac volutpat dolor condimentum ac. Suspendisse sit amet mattis enim, et dignissim ante. Nullam vel lectus ullamcorper, tempor orci at, dictum mauris. Ut iaculis urna ac tortor pretium, et tempus purus maximus. Maecenas consectetur magna commodo, eleifend sem eu, bibendum odio. In hac habitasse platea dictumst. Duis vitae enim et dolor viverra lacinia.
+  <div id="datails" class="container">
+      <div class="section">
+          <p class="light butler-font">Ut in diam et diam rhoncus tincidunt. Cras ultricies tellus in lacus dapibus, non dignissim elit molestie. Mauris ac consectetur lectus, sed faucibus orci. Cras facilisis mauris ac sapien convallis efficitur. Pellentesque efficitur pharetra bibendum. Quisque sit amet imperdiet felis, nec consequat ex. Mauris egestas nisl mauris, in aliquam risus feugiat ut. Suspendisse quis nulla vel elit iaculis tincidunt. Nam in bibendum metus. Suspendisse imperdiet nulla sit amet diam feugiat, gravida ullamcorper ipsum mattis. Donec ac lacus pharetra, condimentum ex non, faucibus libero.
 
-            Integer in condimentum erat. Vestibulum orci felis, porttitor in semper luctus, semper id enim. Duis tincidunt mattis enim id consequat. Integer fringilla ac augue in faucibus. Etiam ut sem vel justo tincidunt ultricies vel quis tortor. Sed ac turpis magna. Praesent fermentum nulla quis nunc semper, et accumsan arcu cursus. Aliquam ac tristique arcu.
-            
-            Suspendisse magna sem, interdum non tellus ac, tincidunt condimentum nulla. Donec et metus id lacus tincidunt ultrices in quis ligula. Aenean quis dolor at nulla consectetur porttitor. Pellentesque egestas nibh vitae diam molestie, vel iaculis ex luctus. Vestibulum bibendum, augue ut varius pharetra, velit tellus tempor ipsum, id mollis turpis velit vel dolor. Nullam eget volutpat dolor, eget sagittis nibh. Vestibulum id neque sagittis, auctor arcu in, lacinia eros. Aliquam quis viverra mauris, sed ornare lectus. Pellentesque eget risus ligula. Curabitur posuere et odio ultricies consequat. Donec porttitor, massa at aliquam laoreet, eros ipsum porta dui, sit amet euismod libero elit sed dui. Integer finibus imperdiet fermentum.</p>
-          <div id="photo" class="carousel carousel-slider">
-            <a class="carousel-item" href="#one!"><img src="https://www.crockerriverside.org/sites/main/files/main-images/camera_lense_0.jpeg"></a>
-            <a class="carousel-item" href="#two!"><img src="https://lorempixel.com/800/400/food/2"></a>
-            <a class="carousel-item" href="#three!"><img src="https://lorempixel.com/800/400/food/3"></a>
-            <a class="carousel-item" href="#four!"><img src="https://lorempixel.com/800/400/food/4"></a>
+              Sed consequat ipsum sit amet erat ornare venenatis. Quisque maximus ac leo vel cursus. In sed urna tortor. Vestibulum ac lobortis augue. Pellentesque mollis porta hendrerit. Mauris erat arcu, vestibulum ac pulvinar nec, gravida et dui. Suspendisse porttitor fringilla turpis ut sodales. Ut nec mollis dolor. Aliquam erat volutpat. In lobortis suscipit elementum. Nulla risus libero, aliquet a ante eu, mattis feugiat lacus.
+              
+              Aenean eu dolor vel sem mattis ultricies sit amet eu sapien. Aenean sodales a tortor ut facilisis. Morbi et sollicitudin felis. Phasellus vitae nisi justo. Sed ultricies ligula nec ipsum efficitur, sed dictum orci rhoncus. Duis ultricies sem a dui aliquam molestie. Nam consequat, elit vel ullamcorper posuere, orci ante elementum sapien, ut sollicitudin enim enim quis neque. Aliquam ac arcu eget est maximus posuere ut id ligula. Nulla euismod nisi hendrerit lacus dictum auctor. Vivamus ullamcorper massa ipsum, ut facilisis turpis lobortis sed.
+              
+              Maecenas accumsan massa risus, eget hendrerit sapien congue sed. In volutpat quam ac orci imperdiet semper tristique quis nulla. Pellentesque gravida euismod ex porta mattis. Vestibulum dapibus magna augue, in scelerisque erat consectetur id. Suspendisse ultricies orci at ex viverra fermentum. In dui nunc, sodales id ante sed, fermentum malesuada ex. Mauris eget felis vitae nibh hendrerit laoreet vel non ligula. Phasellus venenatis eleifend diam, nec commodo ex aliquet at. Vestibulum sit amet nisl quis sem ullamcorper pellentesque. Etiam dignissim tortor justo, sed vestibulum tortor ornare eget.</p>
           </div>
-          <p class="light">Ut in diam et diam rhoncus tincidunt. Cras ultricies tellus in lacus dapibus, non dignissim elit molestie. Mauris ac consectetur lectus, sed faucibus orci. Cras facilisis mauris ac sapien convallis efficitur. Pellentesque efficitur pharetra bibendum. Quisque sit amet imperdiet felis, nec consequat ex. Mauris egestas nisl mauris, in aliquam risus feugiat ut. Suspendisse quis nulla vel elit iaculis tincidunt. Nam in bibendum metus. Suspendisse imperdiet nulla sit amet diam feugiat, gravida ullamcorper ipsum mattis. Donec ac lacus pharetra, condimentum ex non, faucibus libero.
-
-            Sed consequat ipsum sit amet erat ornare venenatis. Quisque maximus ac leo vel cursus. In sed urna tortor. Vestibulum ac lobortis augue. Pellentesque mollis porta hendrerit. Mauris erat arcu, vestibulum ac pulvinar nec, gravida et dui. Suspendisse porttitor fringilla turpis ut sodales. Ut nec mollis dolor. Aliquam erat volutpat. In lobortis suscipit elementum. Nulla risus libero, aliquet a ante eu, mattis feugiat lacus.
-            
-            Aenean eu dolor vel sem mattis ultricies sit amet eu sapien. Aenean sodales a tortor ut facilisis. Morbi et sollicitudin felis. Phasellus vitae nisi justo. Sed ultricies ligula nec ipsum efficitur, sed dictum orci rhoncus. Duis ultricies sem a dui aliquam molestie. Nam consequat, elit vel ullamcorper posuere, orci ante elementum sapien, ut sollicitudin enim enim quis neque. Aliquam ac arcu eget est maximus posuere ut id ligula. Nulla euismod nisi hendrerit lacus dictum auctor. Vivamus ullamcorper massa ipsum, ut facilisis turpis lobortis sed.
-            
-            Maecenas accumsan massa risus, eget hendrerit sapien congue sed. In volutpat quam ac orci imperdiet semper tristique quis nulla. Pellentesque gravida euismod ex porta mattis. Vestibulum dapibus magna augue, in scelerisque erat consectetur id. Suspendisse ultricies orci at ex viverra fermentum. In dui nunc, sodales id ante sed, fermentum malesuada ex. Mauris eget felis vitae nibh hendrerit laoreet vel non ligula. Phasellus venenatis eleifend diam, nec commodo ex aliquet at. Vestibulum sit amet nisl quis sem ullamcorper pellentesque. Etiam dignissim tortor justo, sed vestibulum tortor ornare eget.</p>
-        </div>
-      </div>
-
-    </div>
-  </div>
-
-
-  <div class="parallax-container valign-wrapper">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <div class="row center">
-          <h5 class="header col s12 light"></h5>
-        </div>
       </div>
     </div>
-    <div class="parallax"><img src="images/paralax/background3.jpg" alt="Unsplashed background img 3"></div>
-  </div>
+
 
   <footer class="page-footer teal">
     <div class="container">
       <div class="row">
         <div class="col l9 s12">
-          <h5 class="white-text">Sofie Lukeš</h5>
-          <p class="grey-text text-lighten-4">Cras egestas lorem et nisl luctus fringilla. Curabitur luctus orci rhoncus ante rhoncus posuere. Proin iaculis enim nibh, non vulputate augue luctus et. Maecenas sit amet lectus libero. Donec commodo id tortor et tristique. Nunc mollis commodo ipsum, ac mollis lorem tincidunt ut. Nullam auctor libero sed dapibus interdum. Aenean vulputate fermentum leo ac pharetra. Vestibulum porttitor neque quis sapien pulvinar, sed porta magna volutpat. Morbi dolor arcu, sagittis nec fermentum ut, euismod sed turpis.</p>
+          <h5 class="white-text butler-font">Sofie Lukeš</h5>
+          <p class="grey-text text-lighten-4 butler-font">Cras egestas lorem et nisl luctus fringilla. Curabitur luctus orci rhoncus ante rhoncus posuere. Proin iaculis enim nibh, non vulputate augue luctus et. Maecenas sit amet lectus libero. Donec commodo id tortor et tristique. Nunc mollis commodo ipsum, ac mollis lorem tincidunt ut. Nullam auctor libero sed dapibus interdum. Aenean vulputate fermentum leo ac pharetra. Vestibulum porttitor neque quis sapien pulvinar, sed porta magna volutpat. Morbi dolor arcu, sagittis nec fermentum ut, euismod sed turpis.</p>
 
 
         </div>
         <div class="col l3 s12">
-          <h5 class="white-text">Social</h5>
+          <h5 class="white-text butler-font">Napište mi</h5>
           <ul>
-            <li><a class="white-text" href="https://www.instagram.com/sofie.s.world/"><img src="images/social_icons/insta.svg" style="width:48px;height:48px;"></a></li>
+            <li><a class="white-text" href="https://www.instagram.com/notescestovatele/"><img src="images/social_icons/insta.svg" style="width:48px;height:48px;"></a></li>
             <li><a class="white-text" href="https://www.facebook.com/sofie.lukesova/"><img src="images/social_icons/fb.svg" style="width:48px;height:48px;"></a></li>
             <li><a class="white-text" href="mailto:sofie.lukes@gmail.com"><img src="images/social_icons/gmail.svg" style="width:48px;height:48px;"></a></li>
           </ul>
@@ -149,7 +129,7 @@
       </div>
     </div>
     <div class="footer-copyright">
-      <div class="container">
+      <div class="container butler-font">
       Made by <a class="brown-text text-lighten-3" href="https://github.com/Tommzs">Tomáš Novák</a>
       </div>
     </div>
